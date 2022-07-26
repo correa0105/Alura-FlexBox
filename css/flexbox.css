@@ -1,0 +1,116 @@
+.cabecalhoPrincipal .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+    align-items: center;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videoSobre .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+.videoSobre-sobre {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    flex-wrap: wrap;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.rodapePrincipal-patrocinadores-list-link img{
+    width: 100%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+@media screen and (max-width: 768px){
+    .cabecalhoPrincipal .container {
+        flex-direction: column;
+    }
+    
+    .cabecalhoPrincipal-nav {
+        flex-direction: column;
+        align-items: initial;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .conteudoPrincipal-cursos-link {
+        width: 100%;
+    }
+    
+    .videoSobre .container {
+        flex-direction: column;
+    }
+    
+    .videoSobre-sobre-title {
+        text-align: center;
+    }
+    
+    .videoSobre-button {
+        margin-top: 5%;
+    }
+    
+    .rodapePrincipal-navMap-list {
+        height: auto;
+    }
+    
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rodapePrincipal-patrocinadores-list {
+        gap: 15px;
+    }
+    
+    .rodapePrincipal-contatoForm {
+        width: auto;
+    }
+    
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1;
+    }
+    
+}
+
